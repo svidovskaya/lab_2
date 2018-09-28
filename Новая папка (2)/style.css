@@ -1,0 +1,79 @@
+body{
+    color: darkblue;
+    font-size: 25px;
+}
+*{
+margin:0;
+padding:0;
+}
+audio{
+    width: 500px;
+    height: 50px;
+}
+.class-1, .class-2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.class-2{
+    background-color:rgba(0,222,0,0.8);   /*rjba прозрачность*/
+    margin-top: 15px;
+}
+
+/*#id-1{
+    background-color:rgba(255,222,0,0.8); 
+}
+*/
+[name]{
+    background-color: rgb(0, 0, 0)
+}
+
+[name*="a"]{
+    background-color: blue;
+}
+
+[class*="class-"]{
+    width: 200px;
+    height: 200px;
+}
+
+li{
+    font-size: 15px;
+    color: blueviolet;
+}
+
+ul li{
+    color: red;
+    color: red !important
+}
+
+/*.first>li{
+    color: cadetblue;
+}
+*/
+/*ul>li{
+    color: green
+}
+*/
+/*.cl5 + li{
+color: brown         следующий*/
+
+/*.cl5 ~ li{
+    color: yellow;
+} *//*все нахоящиеся ниже */ 
+
+/*li:hover{
+    color: palevioletred;
+}
+li:before{
+    content: "♣"
+} */
+
+/*li:nth-child(2n+1){
+    color: blue;
+}
+*/
+
+ul #id22.cl5{
+    color: green
+}
